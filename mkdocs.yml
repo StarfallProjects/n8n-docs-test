@@ -1,7 +1,6 @@
 site_name: n8n Documentation
 theme:
   name: material
-  custom_dir: overrides
   favicon: _images/favicon.ico
   font:
     text: Open Sans
@@ -15,12 +14,6 @@ theme:
     - navigation.tabs.sticky
     # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/?h=navigation+tabs#anchor-tracking
     - navigation.tracking
-# https://squidfunk.github.io/mkdocs-material/customization/?h=#additional-css
-extra_css:
-  - _extra/css/extra.css
-# https://squidfunk.github.io/mkdocs-material/customization/?h=#additional-javascript
-extra_javascript:
-  - _extra/javascript/extra.js
 extra:
   analytics:
     provider: google
